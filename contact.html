@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>The Bake House</title>
+</head>
+
+<body>
+	<header>
+		<div class = "nav-bar">
+			<img src="bakehouse-logo.jpg">
+			
+			<ul class = "nav-menu">
+				<li> <a  href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class = "selected"><a href="contact.html">Contact</a></li>
+			</ul>	
+		</div>
+	</header>
+
+	<section class = "contact-top-section">
+		<p>Whether it's a question or a custom order, our door (and oven) is always open.</p>
+	</section>
+
+	<section class = "form-section">
+		<form>
+			<div>
+				<label for = "name">Name</label>
+				<input type="text" name="customer_name" id = "name">
+			</div>
+			<div>
+				<label for = "email">Email</label>
+				<input type="email" name="customer_email" id = "email">
+			</div>
+			<div>
+				<label for = "message">Message</label>
+				<textarea id = "message" name = "customer_message" maxlength="200"></textarea>
+			</div>
+			<button>Submit</button>
+		</form>
+	</section>
+</body>
+</html>
